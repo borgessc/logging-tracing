@@ -19,7 +19,7 @@ spec:
           value: impressive-spaniel-redis-master
         - name: REDIS_PASSWORD
           value: fQJIviDfk7
-        image:  borgessc/run_controller:v1
+        image:  docker.io/borgessc/run_controller:v1
         imagePullPolicy: Always
         name: run-controller 
       imagePullSecrets:

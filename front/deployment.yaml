@@ -17,7 +17,7 @@ spec:
       - env:
         - name: REACT_APP_BACKEND_URL
           value: http://localhost:8000
-        image: borgessc/frontend:v1
+        image: docker.io/borgessc/frontend:v1
         imagePullPolicy: Always
         name: front-end
       imagePullSecrets:
