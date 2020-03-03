@@ -1,0 +1,4 @@
+
+# Deploying Run-Controller
+kubectl apply -f run-controller/deployment.yaml
+kubecll apply -f run-controller/service.yaml
