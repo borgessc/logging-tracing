@@ -38,3 +38,4 @@ kubectl port-forward service/front-end 3000:3000 &
 echo "Forward port 8000"
 kubectl port-forward service/workout-gateway 8000:8000 &
 
+# done
